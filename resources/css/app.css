@@ -1,0 +1,173 @@
+*, html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(./image/bg.png);
+  background-repeat: none;
+  background-size: cover;
+  /*background-image: linear-gradient(to bottom right, rgb(115, 255, 255), white); */
+}
+
+.text-logo {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.text-logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+}   
+
+.text-logo p {
+  font-size: 12px;
+}
+
+.nav-item {
+  font-size: 17px;
+  font-weight: 500;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.nav-item:hover {
+  background-color: paleturquoise;
+  transition: .2s ease-in-out;
+  transition-delay: .2s;
+  border-radius: 20px;
+}
+
+.text-home {
+  padding: 100px;
+  padding-top: 150px;
+}
+
+.text-home1 {
+  font-size: 24px;
+  font-weight: 650;
+ }
+
+ .text-home2 {
+  font-size: 30px;
+  font-weight: 700;
+ }
+
+ .text-home3 {
+  font-size: 20px;
+ }
+
+ .text-bawah {
+  margin-top : 150px;
+  padding-bottom: 30px;
+} 
+
+.text-about {
+  padding: 100px;
+  padding-top: 170px;
+}
+
+.text-about h1 {
+  font-size: 35px;
+  font-weight: 650;
+}
+
+.text-about p {
+  font-size: 20px;
+  font-weight: 450;
+}
+
+.about-img {
+  padding-top: 80px;
+}
+
+.contact-img{
+  padding-top: 100px;
+}
+
+.text-contact {
+  padding: 100px;
+  padding-top: 170px;
+}
+
+.text-contact h1 {
+  font-size: 40px;
+  font-weight: 650;
+}
+
+.container-contact a {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* .container-contact {
+  padding-top: 90px;
+}
+
+.container-contact p {
+  font-size: 20px;
+  font-weight: 400;
+} */
+
+/* .container-contact {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  align-content: left;
+} */
+
+.news-img {
+  padding-top: 80px;
+}
+
+.text-news {
+  padding-top: 200px;
+}
+
+@media (max-width: 768px) {
+  .gambar-home {
+    display: none;
+  }
+}
+ @media (max-width: 768px) {
+
+  .text-home {
+    padding: 0;
+    padding-top: 50px;
+  }
+
+  .text-home1 {
+    font-size: 20px;
+    font-weight: 600;
+   }
+  
+   .text-home2 {
+    font-size: 26px;
+    font-weight: 650;
+   }
+  
+   .text-home3 {
+    font-size: 16px;
+   }
+
+   .text-about {
+    padding: 0;
+    padding-top: 50px;
+  }
+  
+  .text-about h1 {
+    font-size: 26px;
+    font-weight: 650;
+  }
+  
+  .text-about p {
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .text-contact {
+    padding: 0;
+    padding-top: 50px;
+ }
+ 
+ }  
