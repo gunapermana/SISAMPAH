@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  @include('navbar')
+  @include('guest.layout.navbar')
   @yield('content')
 </body>
 </html>
