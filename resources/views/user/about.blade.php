@@ -1,7 +1,7 @@
-@extends('layout.main')
+@extends('user.layout.main')
 @section('title', 'About')
 
-@section('layout.content')
+@section('content')
 <div class="container container-home pt-5">
   <div class="row align-items-center">
     <div class="col-lg-6 text-home">
