@@ -1,7 +1,7 @@
-@extends('layout')
-@section('title', 'ABOUT | SISAMPAH')
+@extends('layout.main')
+@section('title', 'About')
 
-@section('content')
+@section('layout.content')
 <div class="container container-home pt-5">
   <div class="row align-items-center">
     <div class="col-lg-6 text-home">

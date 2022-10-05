@@ -1,7 +1,7 @@
-@extends('layout')
-@section('title', 'ANGKUT | SISAMPAH')
+@extends('layout.main')
+@section('title', 'Angkut')
 
-@section('content')
+@section('layout.content')
 <div class="container container-home">
   <div class="row align-items-center">
     <div class="col-sm-6">
