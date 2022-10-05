@@ -14,33 +14,29 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
-
-Route::get('/navbar', function () {
-    return view('layout');
+    return view('user.dashboard');
 });
 
 Route::get('/home', function () {
-    return view('home');
+    return view('user.dashboard');
 });
 
 Route::get('/about', function () {
-    return view('about');
+    return view('user.about');
 });
 
 Route::get('/poin', function () {
-    return view('poin');
+    return view('user.poin');
 });
 
 Route::get('/contact', function () {
-    return view('contact');
+    return view('user.contact');
 });
 
 Route::get('/news', function () {
-    return view('news');
+    return view('user.news');
 });
 
 Route::get('/angkut', function () {
-    return view('angkut');
+    return view('user.angkut');
 });
