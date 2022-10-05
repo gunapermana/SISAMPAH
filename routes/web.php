@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GuesController;
+use App\Http\Controllers\CustomAuthController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,34 +15,41 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
 
-Route::get('/navbar', function () {
-    return view('layout');
-});
+// Route::get('/navbar', function () {
+//     return view('layout');
+// });
 
-Route::get('/home', function () {
-    return view('home');
-});
+// Route::get('/home', function () {
+//     return view('home');
+// });
 
-Route::get('/about', function () {
-    return view('about');
-});
+// Route::get('/about', function () {
+//     return view('about');
+// });
 
-Route::get('/poin', function () {
-    return view('poin');
-});
+// Route::get('/poin', function () {
+//     return view('poin');
+// });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
+// Route::get('/contact', function () {
+//     return view('contact');
+// });
 
-Route::get('/news', function () {
-    return view('news');
-});
+// Route::get('/news', function () {
+//     return view('news');
+// });
 
-Route::get('/angkut', function () {
-    return view('angkut');
-});
+// Route::get('/angkut', function () {
+//     return view('angkut');
+// });
+
+// Guest
+Route::get('/', [GuestController::class, 'index'])->name('dashboard');
+Route::get('/about-guest', [GuestController::class, 'about'])->name('about');
+Route::get('/contact-guest', [GuesController::class, 'contact'])->name('contact');
+Route::get('/news-guest', [GuestController::class, 'news'])->name('news');
+// Route::get('/angkut-sampah-guest', [GuestController::class, 'angkut_sampah'])->name('angkut-sampah');
