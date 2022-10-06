@@ -11,19 +11,19 @@
       
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-6 fw-semibold">
         <li class="nav-item menu-nav px-2">
-          <a class="nav-link active" aria-current="page" href="/home">HOME</a>
+          <a class="nav-link active" aria-current="page" href="/dashboard-guest">HOME</a>
         </li>
         <li class="nav-item menu-nav px-2">
-          <a class="nav-link active" aria-current="page" href="/about">ABOUT</a>
+          <a class="nav-link active" aria-current="page" href="/about-guest">ABOUT</a>
         </li>
         <li class="nav-item menu-nav px-2">
           <a class="nav-link active" aria-current="page" href="/poin">POIN</a>
         </li>
         <li class="nav-item menu-nav px-2">
-          <a class="nav-link active" aria-current="page" href="/contact">CONTACT</a>
+          <a class="nav-link active" aria-current="page" href="/contact-guest">CONTACT</a>
         </li>
         <li class="nav-item menu-nav px-2">
-          <a class="nav-link active" aria-current="page" href="/news">NEWS</a>
+          <a class="nav-link active" aria-current="page" href="/news-guest">NEWS</a>
         </li>
         <li class="nav-item menu-nav px-2">
           <a class="nav-link active" aria-current="page" href="#">LOGIN</a>

@@ -51,8 +51,9 @@ use App\Http\Controllers\AuthController;
 
 // Guest
 Route::get('/', [GuestController::class, 'index'])->name('dashboard');
+Route::get('/dashboard-guest', [GuestController::class, 'index'])->name('dashboard');
 Route::get('/about-guest', [GuestController::class, 'about'])->name('about');
-Route::get('/contact-guest', [GuesController::class, 'contact'])->name('contact');
+Route::get('/contact-guest', [GuestController::class, 'contact'])->name('contact');
 Route::get('/news-guest', [GuestController::class, 'news'])->name('news');
 // Route::get('/angkut-sampah-guest', [GuestController::class, 'angkut_sampah'])->name('angkut-sampah');
 
